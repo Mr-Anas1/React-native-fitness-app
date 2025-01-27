@@ -46,8 +46,6 @@ const home = () => {
           </View>
         </View>
       </View>
-
-      {/*Image Slider */}
     </SafeAreaView>
   );
 };

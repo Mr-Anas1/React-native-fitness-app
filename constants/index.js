@@ -5,3 +5,5 @@ export const sliderImages = [
   require("../assets/slide4.png"),
   require("../assets/slide5.png"),
 ];
+
+export default sliderImages;
