@@ -8,6 +8,7 @@ import {
 import { Image } from "react-native";
 import Ionicons from "@expo/vector-icons/Ionicons";
 import ImageSlider from "../components/ImageSlider";
+import BodyParts from "../components/BodyParts";
 
 const home = () => {
   return (
@@ -45,6 +46,10 @@ const home = () => {
             <Ionicons name="notifications" size={hp(3)} color="gray" />
           </View>
         </View>
+      </View>
+
+      <View className="flex-1">
+        <BodyParts />
       </View>
     </SafeAreaView>
   );
